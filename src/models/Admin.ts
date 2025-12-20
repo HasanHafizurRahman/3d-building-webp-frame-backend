@@ -25,4 +25,4 @@ AdminSchema.methods.comparePassword = function (password: string): Promise<boole
     return bcrypt.compare(password, this.password);
 };
 
-export default mongoose.model<IAdmin>('Admin', AdminSchema);
+export default mongoose.model<IAdmin>('Admin', AdminSchema, 'webp_admins');

@@ -56,4 +56,4 @@ const BuildingSchema = new Schema<IBuilding>({
     useFrames: { type: Boolean, default: false }
 }, { timestamps: true });
 
-export default mongoose.model<IBuilding>('Building', BuildingSchema);
+export default mongoose.model<IBuilding>('Building', BuildingSchema, 'webp_buildings');
