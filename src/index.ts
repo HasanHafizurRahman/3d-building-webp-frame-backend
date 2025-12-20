@@ -18,7 +18,7 @@ app.use(cors({
         const allowedOrigins = [
             'http://localhost:3000',
             'http://localhost:5173',
-            'https://farr-3d-building.vercel.app'
+            'https://3d-building-webp-frame-client.vercel.app'
         ];
 
         if (process.env.FRONTEND_URL) {
